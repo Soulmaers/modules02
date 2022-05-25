@@ -1,5 +1,10 @@
-import Character from ('./domain');
-export default Game;
+
+export default class Game {
+    start() {
+        console.log('game started');
+    }
+}
+
 export { GameSavingData, readGameSaving, writeGameSaving }
 
 class Game {
